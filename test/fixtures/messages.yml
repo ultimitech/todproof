@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dod: 2016-02-23
+  tod: MyString
+  dow: MyString
+  title: MyString
+
+two:
+  dod: 2016-02-23
+  tod: MyString
+  dow: MyString
+  title: MyString

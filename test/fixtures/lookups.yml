@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rsub: 1
+  blk: 1
+  sub: 1
+  translation_id: 
+
+two:
+  rsub: 1
+  blk: 1
+  sub: 1
+  translation_id: 

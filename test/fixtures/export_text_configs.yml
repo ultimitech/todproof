@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  blk_separators: MyString
+  sub_separators: MyString
+  sen_separators: MyString
+  format_emphases: false
+  format_scripture_sentences: false
+  format_conversation_sentences: false
+  format_poetry_sentences: false
+  show_blk_numbers: false
+  show_sub_numbers: false
+  show_rsub_numbers: false
+  show_sen_numbers: false
+  show_rsen_numbers: false
+
+two:
+  blk_separators: MyString
+  sub_separators: MyString
+  sen_separators: MyString
+  format_emphases: false
+  format_scripture_sentences: false
+  format_conversation_sentences: false
+  format_poetry_sentences: false
+  show_blk_numbers: false
+  show_sub_numbers: false
+  show_rsub_numbers: false
+  show_sen_numbers: false
+  show_rsen_numbers: false

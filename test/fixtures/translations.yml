@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lan: MyString
+  tran_title: MyString
+  descrip: MyString
+  blkc: 1
+  parc: 1
+  senc: 1
+  xcrip: MyString
+  message_id: 
+
+two:
+  lan: MyString
+  tran_title: MyString
+  descrip: MyString
+  blkc: 1
+  parc: 1
+  senc: 1
+  xcrip: MyString
+  message_id: 

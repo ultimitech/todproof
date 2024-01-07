@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  blk: 1
+  par: 1
+  sen: 1
+  typ: MyString
+  tie: false
+  translation_id: 
+
+two:
+  blk: 1
+  par: 1
+  sen: 1
+  typ: MyString
+  tie: false
+  translation_id: 

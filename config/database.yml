@@ -84,5 +84,6 @@ test:
 production:
   <<: *default
   database: todproof_production
-  #username: todproof
-  #password: <%= ENV['TODPROOF_DATABASE_PASSWORD'] %>
+    #username: vagrant
+  username: uts
+  password: <%= ENV['TODPROOF_DATABASE_PASSWORD'] %>

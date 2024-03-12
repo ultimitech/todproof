@@ -11,6 +11,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+#ruby '3.3.0'
 ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -112,3 +113,9 @@ group :production do
   #gem 'pg', '~> 0.15'
   #gem 'rails_12factor'
 end
+
+gem 'capistrano', '~> 3.18'
+gem 'capistrano-rails', '~> 1.6', '>= 1.6.3'
+gem 'capistrano-passenger', '~> 0.2.1'
+gem 'capistrano-rbenv', '~> 2.2'
+

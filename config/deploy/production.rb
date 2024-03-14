@@ -65,4 +65,4 @@
 #server '192.168.78.202', user: 'uts', roles: %w{app db web}
 #server '192.168.78.204', user: 'uts', roles: %w{app db web}
 #server '192.168.78.222', user: 'uts', roles: %w{app db web}
-server '192.168.78.66', user: 'uts', roles: %w{app db web}
+server '192.168.78.66', user: 'uts', roles: %w{app db web}, port: 2278

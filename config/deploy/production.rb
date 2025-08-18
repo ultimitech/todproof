@@ -42,10 +42,17 @@
 # Global options
 # --------------
 #  set :ssh_options, {
-#    keys: %w(/home/user_name/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
+#     user: 'uts',
+#    keys: %w(/home/uts/.ssh/server_key),
+#    forward_agent: true,
+#    auth_methods: %w(publickey)
 #  }
+ set :ssh_options, {
+    user: 'uts',
+   keys: %w(/home/uts/.ssh/ezt8),
+   forward_agent: true,
+   auth_methods: %w(publickey)
+ }
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
@@ -65,4 +72,10 @@
 #server '192.168.78.202', user: 'uts', roles: %w{app db web}
 #server '192.168.78.204', user: 'uts', roles: %w{app db web}
 #server '192.168.78.222', user: 'uts', roles: %w{app db web}
-server '192.168.78.66', user: 'uts', roles: %w{app db web}, port: 2278
+# server '192.168.78.66', user: 'uts', roles: %w{app db web}, port: 2278
+
+# local
+# server '192.168.1.229', user: 'uts', roles: %w{app db web}
+
+# remote
+server 'mal456.org', user: 'uts', roles: %w{app db web}, port: 2278

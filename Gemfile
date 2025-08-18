@@ -118,4 +118,3 @@ gem 'capistrano', '~> 3.18'
 gem 'capistrano-rails', '~> 1.6', '>= 1.6.3'
 gem 'capistrano-passenger', '~> 0.2.1'
 gem 'capistrano-rbenv', '~> 2.2'
-
